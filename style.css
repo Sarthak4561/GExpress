@@ -14,6 +14,12 @@ nav {
   padding: 20px 50px;
 }
 
+.lessfont{
+  font-size: 0.8em;
+  color: blue;
+  margin-bottom: 1em;
+}
+
 .navTop {
   display: flex;
   align-items: center;
@@ -27,6 +33,9 @@ nav {
   padding: 10px 20px;
   border-radius: 10px;
 }
+
+
+
 
 .searchInput {
   border: none;
@@ -75,7 +84,6 @@ nav {
   justify-content: center;
   position: relative;
 }
-
 .sliderBg {
   width: 750px;
   height: 750px;
@@ -449,6 +457,14 @@ footer {
   font-size: 14px;
 }
 
+.fListItem{
+  border-bottom: none;
+}
+
+.spacess{
+  margin-top: 0;
+  padding-top: 0;
+}
 @media screen and (max-width:480px) {
   nav{
     padding: 20px;
@@ -561,4 +577,29 @@ footer {
     width: 90%;
     padding: 20px;
   }
+}
+
+
+.payButton-l{
+  top: 90%;
+  margin-bottom: 0;
+  box-shadow: none;
+}
+.payButton-l:hover,.payButton-r:hover {
+  background-color: #2c824f;
+}
+.payButton-r{
+  margin-top: 0;
+  box-shadow: none;
+  top: 75%;
+}
+
+.search {
+  color: #111;
+  background-color: #111;
+}
+
+.searchInput{
+  color: #111;
+  background-color: #111;
 }
